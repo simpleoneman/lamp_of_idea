@@ -1,0 +1,1 @@
+# lamp_of_idea
