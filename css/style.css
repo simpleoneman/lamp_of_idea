@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: #0F0F0F;
+    min-width: 360px;
+    min-height: 640px;
+}
+a {
+    outline: none;
+}
+.noselect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+h1#idea {
+    color: #AAA;
+    width: 200px;
+    display: block;
+    height: 38px;
+    margin: 0;
+    position: relative;
+    top: 93px;
+    transform: rotate(-50deg);
+    cursor: default;
+}
+p#click {
+    color: #AAA;
+    display: block;
+    width: 100px;
+    height: 25px;
+    margin: 0;
+    cursor: default;
+    position: relative;
+    top: 93px;
+    left: 64px;
+    transform: rotate(-50deg);
+}
+div#lamp {
+    position: relative;
+    top: 5vh;
+    width: 286px;
+    height: 535px;
+    margin: 0 auto;
+}
+a#top_of_lamp {
+    background-color: #414141;
+    background-image: linear-gradient(transparent 80%, rgba(255, 255, 255, .2) 50%);
+    background-size: 50px 50px;
+    display: block;
+    width: 160px;
+    height: 135px;
+    margin: 0 auto;
+    position: relative;
+    top: 47px;
+    border-radius: 90px 90px 0 0;
+}
+a#middle_of_lamp {
+    display: block;
+    background-color: #AAA;
+    width: 160px;
+    height: 53px;
+    margin: 0 auto;
+    position: relative;
+    top: 47px;
+    z-index: 2;
+}
+a#bottom_of_lamp {
+    background-color: #AAA;
+    width: 286px;
+    height: 325px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+}
+div#lamp:hover a#middle_of_lamp {
+    transition: all .2s;
+    background-color: #ffff06;
+    box-shadow: 0px 0px 20px 0px #ffff06;
+}
+div#lamp:hover a#bottom_of_lamp {
+    transition: all .2s;
+    background-color: #ffff06;
+    box-shadow: 0px 0px 82px 9px #ffff06;
+}
