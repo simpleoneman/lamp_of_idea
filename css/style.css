@@ -18,7 +18,7 @@ a {
     user-select: none;
 }
 h1#idea {
-    color: #4B964C;
+    color: #AAA;
     width: 200px;
     display: block;
     height: 38px;
@@ -29,7 +29,7 @@ h1#idea {
     cursor: default;
 }
 p#click {
-    color: #F34040;
+    color: #AAA;
     display: block;
     width: 100px;
     height: 25px;
