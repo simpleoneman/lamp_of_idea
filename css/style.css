@@ -42,7 +42,7 @@ p#click {
 }
 div#lamp {
     position: relative;
-    top: 5vh;
+    top: 4vh;
     width: 286px;
     height: 535px;
     margin: 0 auto;
@@ -53,7 +53,7 @@ a#top_of_lamp {
     background-size: 50px 50px;
     display: block;
     width: 130px;
-    height: 105px;
+    height: 115px;
     margin: 0 auto;
     position: relative;
     top: 47px;
