@@ -82,7 +82,7 @@ a#bottom_of_lamp {
 }
 div#lamp:hover a#middle_of_lamp {
     background-color: #ffff06;
-    box-shadow: 0px 0px 20px 0px #ffff06;
+    box-shadow: 0px -10px 20px 0px #ffff06;
 }
 div#lamp:hover a#bottom_of_lamp {
     background-color: #ffff06;
