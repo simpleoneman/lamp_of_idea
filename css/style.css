@@ -52,8 +52,8 @@ a#top_of_lamp {
     background-image: linear-gradient(transparent 80%, rgba(255, 255, 255, .2) 50%);
     background-size: 50px 50px;
     display: block;
-    width: 160px;
-    height: 135px;
+    width: 130px;
+    height: 105px;
     margin: 0 auto;
     position: relative;
     top: 47px;
@@ -62,7 +62,7 @@ a#top_of_lamp {
 a#middle_of_lamp {
     display: block;
     background-color: #AAA;
-    width: 160px;
+    width: 130px;
     height: 53px;
     margin: 0 auto;
     position: relative;
@@ -71,8 +71,8 @@ a#middle_of_lamp {
 }
 a#bottom_of_lamp {
     background-color: #AAA;
-    width: 286px;
-    height: 325px;
+    width: 256px;
+    height: 295px;
     display: block;
     margin: 0 auto;
     border-radius: 50%;
