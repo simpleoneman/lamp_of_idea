@@ -68,6 +68,7 @@ a#middle_of_lamp {
     position: relative;
     top: 47px;
     z-index: 2;
+    transition: all .2s;
 }
 a#bottom_of_lamp {
     background-color: #AAA;
@@ -77,14 +78,13 @@ a#bottom_of_lamp {
     margin: 0 auto;
     border-radius: 50%;
     position: relative;
+    transition: all .2s;
 }
 div#lamp:hover a#middle_of_lamp {
-    transition: all .2s;
     background-color: #ffff06;
     box-shadow: 0px 0px 20px 0px #ffff06;
 }
 div#lamp:hover a#bottom_of_lamp {
-    transition: all .2s;
     background-color: #ffff06;
     box-shadow: 0px 0px 82px 9px #ffff06;
 }
